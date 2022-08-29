@@ -125,7 +125,7 @@ ${trait.value || '<none>'}    (${trait.rarity_score})\n`
   )
   .join('')}
 
-	[](${getTokenImageLink(rarity.image)})
+	[](${`https://live---metadata-5covpqijaa-uc.a.run.app/images/${TOKEN.id}`})
 `
                 : null
             }
