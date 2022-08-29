@@ -38,7 +38,7 @@ const Token = ({ token, traits, meta, isPage, close }: any) => {
 									Rarity Rank #{token.rank}
 								</h2> */}
                 <img
-                  src={getTokenImageLink(token.image)}
+                  src={`https://live---metadata-5covpqijaa-uc.a.run.app/images/${token.id}`}
                   alt={token.name}
                   style={{
                     minHeight: '340px',
