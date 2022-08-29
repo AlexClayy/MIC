@@ -24,7 +24,7 @@ const TokenCard = ({ token }: any) => {
                     <div className="bg-black block rounded-md overflow-hidden transition duration-150 ease hover:scale-105">
                       <img
                         style={{ minHeight: '200px', minWidth: '200px' }}
-                        src={getTokenImageLink(token.image)}
+                        src={`https://live---metadata-5covpqijaa-uc.a.run.app/images/${token.id}`}
                         alt={token.name}
                       />
                     </div>
